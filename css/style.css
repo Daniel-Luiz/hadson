@@ -2,20 +2,24 @@
 *{
     margin: 0;
     padding: 0;
+    /*box-sizing: border-box;*/
 }
 
 html, body{
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
 
 header{
     background-color: white;
+    /*box-sizing: border-box;*/
     height: 70px;
     padding: 20px 0;
     background-image: url(../imagens/240x90_new_one_tagline_cor.png);
     background-repeat: no-repeat;
     background-position: 20px center;/*center left*/
+    /*margin-bottom: 10%;*/
 }
 /*
 .sobre{
@@ -67,14 +71,95 @@ header{
 }
 
 .planos{
-    background-color: rgb(25, 54, 54);
+    background-color: #1C56A4;
     height: 700px;
+    text-align: center;
 }
 
-.sobre-hadson{
-    background-color: aqua;
-    height: 700px;
+.planos h3{
+    font-size: 40px;
 }
+.consul{
+    width: 100%;
+    /*height: 600px;*/
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.consul > h3{
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+.img-consul{
+    box-sizing: border-box;
+    text-align: center;
+   /* background-color: #9f51e6;*/
+}
+
+.tes{
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+   /* background-color: rgb(75, 75, 53);*/
+    border: 3px solid;
+    border-color: rgb(206, 122, 53);
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.tes .tes2{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(75, 75, 53);
+    /*overflow: hidden;*/
+    transform: translateY(-15%) translateX(-7%);
+}
+
+/*.img-consul2 img{*/
+.tes2 img{
+    box-sizing: border-box;
+    /*width: 20%;*/
+    width: 115%;
+    /*border: 3px solid black;*/  /*5f1d9c*/
+    /*border-radius: 50%;*/
+   /* transform: translateY(-55%);
+    transform: scale(10%);*/
+    transform: rotate(-6deg);
+}
+
+section.descri{
+    /*position: relative;*/
+    top: 50%;
+    text-align: center;
+   /* transform: translateY(-50%);*/
+}
+
+section.descri h2{
+    color: #343a40;
+    font-size: 46px;
+}
+
+section.descri h2 > span, section.descri h3 > span{
+    color: blueviolet;
+}
+
+section.descri h3{
+    margin: 15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.descri p{
+    color: #6c757d;
+    width: 50%;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
 
 footer{
     vertical-align: bottom;
