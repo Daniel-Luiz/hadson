@@ -21,19 +21,6 @@ header{
     background-position: 20px center;/*center left*/
     /*margin-bottom: 10%;*/
 }
-/*
-.sobre{
-    text-align: center;
-    height: 780px;
-    background-color: red;
-    background-image: url(../imagens/Plano-de-saude-02.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-.header{
-    display: inline-block;
-    vertical-align: top;
-}*/
 
 .title{
     text-align: center;
@@ -100,12 +87,6 @@ header{
     color: white;
 }
 
-/*
-.artigo{
-    background-color: rgb(143, 143, 110);
-    height: 400px;
-}*/
-
 .planos{
     background-color: #1C56A4;
     height: 700px;
@@ -114,6 +95,7 @@ header{
 
 .planos h3{
     font-size: 40px;
+    color: white;
 }
 
 .plano-1{
@@ -125,21 +107,6 @@ header{
     border: 3px solid black;
     background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -182,7 +149,6 @@ header{
     transform: translateY(-15%) translateX(-7%);
 }
 
-/*.img-consul2 img{*/
 .tes2 img{
     box-sizing: border-box;
     /*width: 20%;*/
